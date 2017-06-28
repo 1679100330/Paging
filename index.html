@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<script src="js/paging.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div id="demo"></div>
+		<script type="text/javascript">
+			var demo = document.getElementById('demo');
+			/* demo:父容器
+			 * 100:总页数
+			 * 9:标签数
+			 * 回调
+			 */
+			paging.init(demo,30,5,function(data){
+				//1、data:当前页
+				//2、paging.getCurrentPage();//获取当前页
+				//---
+			});			
+		</script>
+	</body>
+</html>
